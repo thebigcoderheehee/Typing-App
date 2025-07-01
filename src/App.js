@@ -206,7 +206,8 @@ function App() {
       }}
       >
         <img
-        src='/Car.png'
+        src={`${process.env.PUBLIC_URL}/images/Car.png`}
+        alt="example"
         style={{
             position: 'absolute',
             height: 60,
@@ -228,7 +229,8 @@ function App() {
       }}
       >
         <img
-        src='/Car.png'
+        src={`${process.env.PUBLIC_URL}/images/Car.png`}
+        alt="example"
         style={{
             position: 'absolute',
             height: 60,
